@@ -18,27 +18,30 @@
 
 
 ## Example of `Q` file input to algorithm, the first item in each row is a gene, and the remaining items in the row are connected to this gene.
-**RNF7**	UBE2Q1	UBE2D4	UBE2D2	UBE2D1
+**RNF7** UBE2Q1   UBE2D4   UBE2D2   UBE2D1
 
 **RNF26**	UBE2Q1	UBE2D2	UBE2D3	UBE2D1	UBE2U	UBE2W	UBE2E1	UBE2D4	UBE2G2
 
 **EXOSC7**	UBE2Q1	UBE2Q2	IP6K1	EXOSC9
 
-**...** ...
+**...**  ...
 
 
 ## The process of executing the project
 
-1. You need to import the downloaded `src` folder into `eclipse` or `MyEclipse` and execute them in the `JAVA8` environment whenever it is possible. Files are stored as follows:</br>
+1. You need to download `CGP-NCM-ALgorithm.zip` first and unzip it.
 
-   ![image](Resource_storage_display-1.png)
-   ![image](Resource_storage_display-2.png)
+2. You need to import the `My_Cancer_GA_PSO_GitHub` folder in `CGP-NCM-ALgorithm` folder into `eclipse` or `MyEclipse` and execute them in the `JAVA8` environment whenever it is possible.
    
-2. The `main` method in `Run.java` is the entry to the whole program.
+3. The `main` method in the `Run_CGP_NCM.java` in package `Main_Resources` is the entry to the whole program. The 'A' matrix corresponding to the three cancer species tested in the paper is placed in package `dataFile`, and the PPI network for experiment is placed in package `networkFile`, which has been preprocessed into executable format.
   
-3. Enter the relative or absolute path of the `txt` file in the following statement.
-
-       String path = "GBM_removeGene_GeneNumbers_911.txt;";
+4. Enter the relative or absolute path of the `txt` file in the following statement.
+      
+       `//input file
+		String path = "dataFile//A_cut_off-2-sample_cut_off-0_GBM-geneCount-440.txt;";`
+      
+      `//network file
+		String[] netPath = {"networkFile//mergeNet.txt"};`
    
 4. Setting parameters.
    * This project provides two real data of `GBM`, `GBM_ GeneNumbers_ 920.txt` is a file processed according to the paper description, which includes `90` samples and `920` genes. And `GBM_ removeGene_ GeneNumbers_ 911.txt` is a file that deleted the genes mentioned in the paper when `K=4` is tested. The parameter `g` is given in the file name.
