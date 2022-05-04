@@ -48,12 +48,12 @@
 
    
 5. Setting parameters.
-   * `G`: The number of genes in the input `A` matrix. If you use the three files that come with the dataFile in the project, the number following the last `-'symbol in the file name is the number of genes.
-   * `K`: Set the scale of driver pathway that need to be looked for.
-   * `modelName`: The project provides two model choices, `model_GA` stands for the model of method `Dentrix`, used to test algorithm time and accuracy, `model_NCM` represents the model proposed in the paper and is used to find the driver pathway using matrix `A` and PPI network `Q`. By simply setting the model name, the project automatically matches the model using a reflection mechanism.
-   * `numberAlgorithm`: The project supports repeated execution of `CGP-NCM` algorithm, and this parameter is set to meet the needs of repeated execution.
-   * `standard`: This parameter represents the fitness value of the accurate solution represented by the input file calculated through the set model, which is used to test the accuracy of the algorithm. If you don't know this value, you don't need to set it, so the accuracy of output has no reference value. The self-contained in the code is the adaptation value of the exact solution under the default setting.
-   * Other parameters have been set as the optimal value through a large number of experiments and can be kept unchanged for testing.
+   ### * `G`: The number of genes in the input `A` matrix. If you use the three files that come with the dataFile in the project, the number following the last `-'symbol in the file name is the number of genes.
+   ### * `K`: Set the scale of driver pathway that need to be looked for.
+   ### * `modelName`: The project provides two model choices, `model_GA` stands for the model of method `Dentrix`, used to test algorithm time and accuracy, `model_NCM` represents the model proposed in the paper and is used to find the driver pathway using matrix `A` and PPI network `Q`. By simply setting the model name, the project automatically matches the model using a reflection mechanism.
+   ### * `numberAlgorithm`: The project supports repeated execution of `CGP-NCM` algorithm, and this parameter is set to meet the needs of repeated execution.
+   ### * `standard`: This parameter represents the fitness value of the accurate solution represented by the input file calculated through the set model, which is used to test the accuracy of the algorithm. If you don't know this value, you don't need to set it, so the accuracy of output has no reference value. The self-contained in the code is the adaptation value of the exact solution under the default setting.
+   ### * Other parameters have been set as the optimal value through a large number of experiments and can be kept unchanged for testing.
 
 6. After setting the parameters, `CGP-NCM` algorithm is ready to be executed.
 7. This project provides the function of outputting results to file. After running, you can view file `Results.txt` in package `results`.
