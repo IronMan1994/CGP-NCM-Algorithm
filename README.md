@@ -36,18 +36,19 @@
 3. The `main` method in the `Run_CGP_NCM.java` in package `Main_Resources` is the entry to the whole program. The 'A' matrix corresponding to the three cancer species tested in the paper is placed in package `dataFile`, and the PPI network for experiment is placed in package `networkFile`, which has been preprocessed into executable format.
   
 4. Enter the relative or absolute path of the `txt` file in the following statement.
+    ```
+       //path of `A` matrix file
+       String path = "dataFile//A_cut_off-2-sample_cut_off-0_GBM-geneCount-440.txt;";
+   ```
+   ```
+      //path of network file
+      String[] netPath = {"networkFile//mergeNet.txt"};
+   ```
 
-       ```
-          //path of `A` matrix file
-          String path = "dataFile//A_cut_off-2-sample_cut_off-0_GBM-geneCount-440.txt;";
-       ```
-      ```
-         //path of network file
-         String[] netPath = {"networkFile//mergeNet.txt"};
-      ```
+
    
 5. Setting parameters.
-   * `G`: The number of genes in the input `A` matrix. If you use the three files that come with the dataFile in the project, the number following the last `-'symbol in the file name is the number of genes.
+   * $\color{red}{G}$ : The number of genes in the input `A` matrix. If you use the three files that come with the dataFile in the project, the number following the last `-'symbol in the file name is the number of genes.
    * `K`: Set the scale of driver pathway that need to be looked for.
    * `modelName`: The project provides two model choices, `model_GA` stands for the model of method `Dentrix`, used to test algorithm time and accuracy, `model_NCM` represents the model proposed in the paper and is used to find the driver pathway using matrix `A` and PPI network `Q`. By simply setting the model name, the project automatically matches the model using a reflection mechanism.
    * `numberAlgorithm`: The project supports repeated execution of `CGP-NCM` algorithm, and this parameter is set to meet the needs of repeated execution.
