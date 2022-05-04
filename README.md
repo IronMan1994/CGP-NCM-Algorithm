@@ -19,8 +19,11 @@
 
 ## Example of `Q` file input to algorithm, the first item in each row is a gene, and the remaining items in the row are connected to this gene.
 **RNF7**	UBE2Q1	UBE2D4	UBE2D2	UBE2D1
+
 **RNF26**	UBE2Q1	UBE2D2	UBE2D3	UBE2D1	UBE2U	UBE2W	UBE2E1	UBE2D4	UBE2G2
+
 **EXOSC7**	UBE2Q1	UBE2Q2	IP6K1	EXOSC9
+
 **...** ...
 
 
