@@ -38,10 +38,10 @@
 4. Enter the relative or absolute path of the `txt` file in the following statement.
       
        `//input file
-		String path = "dataFile//A_cut_off-2-sample_cut_off-0_GBM-geneCount-440.txt;";`
+	String path = "dataFile//A_cut_off-2-sample_cut_off-0_GBM-geneCount-440.txt;";`
       
       `//network file
-		String[] netPath = {"networkFile//mergeNet.txt"};`
+	String[] netPath = {"networkFile//mergeNet.txt"};`
    
 4. Setting parameters.
    * This project provides two real data of `GBM`, `GBM_ GeneNumbers_ 920.txt` is a file processed according to the paper description, which includes `90` samples and `920` genes. And `GBM_ removeGene_ GeneNumbers_ 911.txt` is a file that deleted the genes mentioned in the paper when `K=4` is tested. The parameter `g` is given in the file name.
