@@ -1,6 +1,6 @@
-# `CGP-NCM-Algorithm`
+# CGP-NCM-Algorithm
 
-# `JAVA` source code of `CGP-NCM algorithm `
+# `JAVA` source code of `CGP-NCM` algorithm
 
 ## A brief description of algorithm
 
