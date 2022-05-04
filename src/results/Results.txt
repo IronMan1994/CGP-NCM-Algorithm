@@ -1,0 +1,16 @@
+dataFile//A_cut_off-2-sample_cut_off-0_GBM-geneCount-440.txt   networkFile//mergeNet.txt   modelName = model_NCM   K = 10   Ng = 110   pmChromosome = 0.01   Np = 14   w = 0.4   C1=C2 = 1.0   numberAlgorithm = 10   standard = 121.2334：
+            1：1.3441s           CDK4      TP53      CDKN2A    MDM2      RB1       EGFR      ERBB2     PIK3R1    STAT1     VAV1      121.2334 
+            2：0.6130s           TP53      CDKN2A    CDK4      MDM2      RB1       MDM4      EGFR      STAT1     ERBB2     PIK3R1    120.7249 
+            3：1.1960s           CDK4      TP53      EGFR      PIK3R1    ERBB2     STAT1     CDKN2A    RB1       VAV1      MDM2      121.2334 
+            4：0.6801s           EGFR      TP53      RB1       PIK3R1    MDM2      STAT1     CDKN2A    VAV1      CDK4      ERBB2     121.2334 
+            5：0.6150s           EGFR      CDK4      TP53      ERBB2     STAT1     RB1       PIK3R1    MDM2      VAV1      CDKN2A    121.2334 
+            6：0.7591s           TP53      CDK4      RB1       CDKN2A    EGFR      MDM2      STAT1     PIK3R1    ERBB2     VAV1      121.2334 
+            7：0.6491s           TP53      CDKN2A    RB1       CDK4      EGFR      STAT1     ERBB2     PIK3R1    MDM2      VAV1      121.2334 
+            8：0.9520s           CDKN2A    TP53      EGFR      MDM2      STAT1     ERBB2     PIK3R1    CDK4      VAV1      RB1       121.2334 
+            9：0.6861s           CDKN2A    TP53      EGFR      CDK4      MDM2      RB1       PIK3R1    ERBB2     VAV1      STAT1     121.2334 
+            10：0.6050s          TP53      CDKN2A    CDK4      ERBB2     EGFR      PIK3R1    VAV1      RB1       MDM2      STAT1     121.2334 
+            The average time of 10 executions is: 0.81s
+            The accuracy of the algorithm is: 99.96
+
+
+
