@@ -1,11 +1,11 @@
-# CGP-NCM-Algorithm
+# `CGP-NCM-Algorithm`
 
-# `JAVA` source code of CGP-NCM algorithm 
+# `JAVA` source code of `CGP-NCM algorithm `
 
 ## A brief description of algorithm
 
 * INPUT: a weighted non-binary mutation matrix `A`, a PPI network `Q`, a parameter `K`;
-* OUTPUT: a submatrix `M`.
+* OUTPUT: a set of genes corresponding to submatrix `M`;
 
 ## Example of `A` input to algorithm
 
